@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src" // Adicionado para mapear a raiz dos arquivos de origem
+  },
+  "include": ["src/**/*"], // Inclui todos os arquivos .ts em subdiretórios de src
+  "exclude": ["node_modules", "dist"] // Exclui pastas comuns
+}
