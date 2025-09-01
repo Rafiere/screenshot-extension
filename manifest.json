@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "screenshot-extension-chrome",
+  "version": "1.0",
+  "description": "A simple Chrome extension to take screenshots",
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
